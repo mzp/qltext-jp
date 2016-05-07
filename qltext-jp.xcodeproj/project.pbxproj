@@ -13,7 +13,21 @@
 		132A181F1CDE1F0A005C239D /* NSData+DetectEncoding.h in Headers */ = {isa = PBXBuildFile; fileRef = 132A181D1CDE1F0A005C239D /* NSData+DetectEncoding.h */; };
 		132A18201CDE1F0A005C239D /* NSData+DetectEncoding.m in Sources */ = {isa = PBXBuildFile; fileRef = 132A181E1CDE1F0A005C239D /* NSData+DetectEncoding.m */; };
 		132A18221CDE1F4E005C239D /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 132A18211CDE1F4E005C239D /* Cocoa.framework */; };
+		132A18241CDE1F97005C239D /* qltext-jp.qlgenerator in CopyFiles */ = {isa = PBXBuildFile; fileRef = 132A180E1CDE1E13005C239D /* qltext-jp.qlgenerator */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		132A18231CDE1F8F005C239D /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "~/Library/QuickLook";
+			dstSubfolderSpec = 0;
+			files = (
+				132A18241CDE1F97005C239D /* qltext-jp.qlgenerator in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		132A180E1CDE1E13005C239D /* qltext-jp.qlgenerator */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "qltext-jp.qlgenerator"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -90,6 +104,7 @@
 				132A180A1CDE1E13005C239D /* Frameworks */,
 				132A180B1CDE1E13005C239D /* Headers */,
 				132A180C1CDE1E13005C239D /* Resources */,
+				132A18231CDE1F8F005C239D /* CopyFiles */,
 			);
 			buildRules = (
 			);

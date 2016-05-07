@@ -12,16 +12,18 @@
 		132A18161CDE1E13005C239D /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = 132A18151CDE1E13005C239D /* main.c */; };
 		132A181F1CDE1F0A005C239D /* NSData+DetectEncoding.h in Headers */ = {isa = PBXBuildFile; fileRef = 132A181D1CDE1F0A005C239D /* NSData+DetectEncoding.h */; };
 		132A18201CDE1F0A005C239D /* NSData+DetectEncoding.m in Sources */ = {isa = PBXBuildFile; fileRef = 132A181E1CDE1F0A005C239D /* NSData+DetectEncoding.m */; };
+		132A18221CDE1F4E005C239D /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 132A18211CDE1F4E005C239D /* Cocoa.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		132A180E1CDE1E13005C239D /* qltext-jp.qlgenerator */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "qltext-jp.qlgenerator"; sourceTree = BUILT_PRODUCTS_DIR; };
-		132A18111CDE1E13005C239D /* GenerateThumbnailForURL.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = GenerateThumbnailForURL.c; sourceTree = "<group>"; };
-		132A18131CDE1E13005C239D /* GeneratePreviewForURL.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = GeneratePreviewForURL.c; sourceTree = "<group>"; };
+		132A18111CDE1E13005C239D /* GenerateThumbnailForURL.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.objc; path = GenerateThumbnailForURL.c; sourceTree = "<group>"; };
+		132A18131CDE1E13005C239D /* GeneratePreviewForURL.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.objc; path = GeneratePreviewForURL.c; sourceTree = "<group>"; };
 		132A18151CDE1E13005C239D /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
 		132A18171CDE1E13005C239D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		132A181D1CDE1F0A005C239D /* NSData+DetectEncoding.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSData+DetectEncoding.h"; sourceTree = "<group>"; };
 		132A181E1CDE1F0A005C239D /* NSData+DetectEncoding.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSData+DetectEncoding.m"; sourceTree = "<group>"; };
+		132A18211CDE1F4E005C239D /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,6 +31,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				132A18221CDE1F4E005C239D /* Cocoa.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -38,6 +41,7 @@
 		132A18041CDE1E13005C239D = {
 			isa = PBXGroup;
 			children = (
+				132A18211CDE1F4E005C239D /* Cocoa.framework */,
 				132A18101CDE1E13005C239D /* qltext-jp */,
 				132A180F1CDE1E13005C239D /* Products */,
 			);

@@ -1,0 +1,275 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		132A18121CDE1E13005C239D /* GenerateThumbnailForURL.c in Sources */ = {isa = PBXBuildFile; fileRef = 132A18111CDE1E13005C239D /* GenerateThumbnailForURL.c */; };
+		132A18141CDE1E13005C239D /* GeneratePreviewForURL.c in Sources */ = {isa = PBXBuildFile; fileRef = 132A18131CDE1E13005C239D /* GeneratePreviewForURL.c */; };
+		132A18161CDE1E13005C239D /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = 132A18151CDE1E13005C239D /* main.c */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		132A180E1CDE1E13005C239D /* qltext-jp.qlgenerator */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "qltext-jp.qlgenerator"; sourceTree = BUILT_PRODUCTS_DIR; };
+		132A18111CDE1E13005C239D /* GenerateThumbnailForURL.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = GenerateThumbnailForURL.c; sourceTree = "<group>"; };
+		132A18131CDE1E13005C239D /* GeneratePreviewForURL.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = GeneratePreviewForURL.c; sourceTree = "<group>"; };
+		132A18151CDE1E13005C239D /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
+		132A18171CDE1E13005C239D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		132A180A1CDE1E13005C239D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		132A18041CDE1E13005C239D = {
+			isa = PBXGroup;
+			children = (
+				132A18101CDE1E13005C239D /* qltext-jp */,
+				132A180F1CDE1E13005C239D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		132A180F1CDE1E13005C239D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				132A180E1CDE1E13005C239D /* qltext-jp.qlgenerator */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		132A18101CDE1E13005C239D /* qltext-jp */ = {
+			isa = PBXGroup;
+			children = (
+				132A18111CDE1E13005C239D /* GenerateThumbnailForURL.c */,
+				132A18131CDE1E13005C239D /* GeneratePreviewForURL.c */,
+				132A18151CDE1E13005C239D /* main.c */,
+				132A18171CDE1E13005C239D /* Info.plist */,
+			);
+			path = "qltext-jp";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		132A180B1CDE1E13005C239D /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		132A180D1CDE1E13005C239D /* qltext-jp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 132A181A1CDE1E13005C239D /* Build configuration list for PBXNativeTarget "qltext-jp" */;
+			buildPhases = (
+				132A18091CDE1E13005C239D /* Sources */,
+				132A180A1CDE1E13005C239D /* Frameworks */,
+				132A180B1CDE1E13005C239D /* Headers */,
+				132A180C1CDE1E13005C239D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "qltext-jp";
+			productName = "qltext-jp";
+			productReference = 132A180E1CDE1E13005C239D /* qltext-jp.qlgenerator */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		132A18051CDE1E13005C239D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = mzp;
+				TargetAttributes = {
+					132A180D1CDE1E13005C239D = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+				};
+			};
+			buildConfigurationList = 132A18081CDE1E13005C239D /* Build configuration list for PBXProject "qltext-jp" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 132A18041CDE1E13005C239D;
+			productRefGroup = 132A180F1CDE1E13005C239D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				132A180D1CDE1E13005C239D /* qltext-jp */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		132A180C1CDE1E13005C239D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		132A18091CDE1E13005C239D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				132A18121CDE1E13005C239D /* GenerateThumbnailForURL.c in Sources */,
+				132A18141CDE1E13005C239D /* GeneratePreviewForURL.c in Sources */,
+				132A18161CDE1E13005C239D /* main.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		132A18181CDE1E13005C239D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		132A18191CDE1E13005C239D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		132A181B1CDE1E13005C239D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "qltext-jp/Info.plist";
+				INSTALL_PATH = /Library/QuickLook;
+				PRODUCT_BUNDLE_IDENTIFIER = "jp.mzp.qltext-jp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = qlgenerator;
+			};
+			name = Debug;
+		};
+		132A181C1CDE1E13005C239D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "qltext-jp/Info.plist";
+				INSTALL_PATH = /Library/QuickLook;
+				PRODUCT_BUNDLE_IDENTIFIER = "jp.mzp.qltext-jp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = qlgenerator;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		132A18081CDE1E13005C239D /* Build configuration list for PBXProject "qltext-jp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				132A18181CDE1E13005C239D /* Debug */,
+				132A18191CDE1E13005C239D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		132A181A1CDE1E13005C239D /* Build configuration list for PBXNativeTarget "qltext-jp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				132A181B1CDE1E13005C239D /* Debug */,
+				132A181C1CDE1E13005C239D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 132A18051CDE1E13005C239D /* Project object */;
+}
